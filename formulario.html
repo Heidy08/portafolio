@@ -1,0 +1,189 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/imagehover.css-master/css/imagehover.min.css">
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <meta name="viewport" content="width=device-width,userscalable=no,initial-scale=1.0,maximun-scale=1.0,minimun scale=1.0" />
+    <meta charset="utf-8" />
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="caja1">
+        <div class="animated flipInY" />
+        <img src="img/logo.png" />
+    </div>
+
+
+    </div>
+
+    <nav style="text-align:center;">
+        <a href="index.html" class="nav-enlace"> <h3> Inicio</h3> </a>
+        <a href="acercademi.html" class="nav-enlace"> <h3>Acerca de mi</h3></a>
+        <a href="portafolio.html" class="nav-enlace"> <h3>Portafolio</h3></a>
+        <a href="experiencia.html" class="nav-enlace"> <h3>Experiencia Profesional</h3></a>
+        <a href="formulario.html" class="nav-enlace"> <h3> Contactame</h3></a>
+
+
+    </nav>
+
+
+
+    <div class="caja4">
+        <h1>
+            Formulario
+        </h1>
+
+    </div>
+    <div id="contienejack">
+        <img src="video/jack.gif" style="width:300px;height:300px;" />
+    </div>
+    <div id="containerformulario">
+
+
+        <div id="cajaformulario" style="align-content:center;">
+            <form action="envia.php" method="post" class="form-consulta">
+
+                <label>
+                    Nombre y apellido: <span>*</span>
+                    <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+                </label><br>
+
+                <label>
+                    pais: <span>*</span>
+                    <input type="text" name="pais" placeholder="Pais" class="campo-form" required>
+                </label><br>
+                <label>
+                    celular: <span>*</span>
+                    <input type="text" name="celular" placeholder="Celular" class="campo-form" required>
+                </label><br>
+                <label>
+                    telefono fijo: <span>*</span>
+                    <input type="text" name="telefono fijo" placeholder="Telefono fijo" class="campo-form" required>
+                </label><br>
+                <label>
+                    Email: <span>*</span>
+                    <input type="email" name="email" placeholder="Email" class="campo-form" required>
+                </label><br>
+
+
+
+                <label>
+                    Consulta:
+                    <textarea name="consulta" class="campo-form"></textarea>
+                </label><br>
+
+                <input type="submit" value="Enviar" class="button special">
+            </form>
+
+        </div>
+
+    </div>
+    <div class="all-whatsapp">
+        <!--Contenedor de todo el chatbot-->
+        <div class="cont-whatsapp">
+            <!--SubContenedor de todo el chatbot-->
+            <div id="boton-whatsapp">
+                <!--Contenedor del Boton-->
+                <img src="img/whatsapp.svg" alt=""><!--(EDITABLE) img boton-->
+            </div>
+            <div class="cont-all-wa">
+                <!--Contenedor-Chat-->
+                <div class="header">
+                    <!--Cabeza del Chat (Se puede eliminar eso es al gusto)-->
+                    <div class="cont-firs-header">
+                        <div class="cont-img-header">
+                            <img src="img/eslider1.png" alt=""><!--img del Perfil-->
+                        </div>
+                        <p>Heidy production</p><!--Nombre del Perfil-->
+                    </div>
+                    <div class="cont-second-header">
+                        <img src="img/cerrar.svg" alt="" id="closeChat"><!--Boton para cerrar el chat-->
+                    </div>
+                </div>
+                <div class="cont-mensaje">
+                    <!--Contenedor de todos los mensajes del Perfil-->
+                    <p class="cont-robot-mensaje"> Hola,Quieres comunicarte con migo via whatsapp ('si', 'no')</p><!--Primer mensaje-->
+                </div>
+                <div class="cont-input">
+                    <input type="text" placeholder="Escribe tu mensaje" id="mensajeWa" autocomplete="off">
+                    <button id="enviar"><img src="img/enviar.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+                <div class="colum1">
+                    <h3>
+                        Mas información del Productor Multimedia
+
+                    </h3>
+                    <p>
+                        <h6>
+                            Heidy Maria Torres Gonzalez, creativa gráfica y productora audiovisual con amplio manejo de la suite de adobe
+                        </h6>
+                    </p>
+                </div>
+
+
+
+                <div class="colum2">
+                    <h3>
+                        Redes Sociales
+                    </h3>
+                    <div class="row">
+                        <a href="https://www.facebook.com/heidy.torresgonzalez.9"> <img src="img/facebook.png"></a>
+
+                        <label><h6>Siguenos en Facebook</h6> </label>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.instagram.com/heidytorrez08/?hl=es-la"> <img src="img/instagram.png"></a>
+
+                        <label><h6> Siguenos en Instagram </h6>   </label>
+                    </div>
+                    <div class="row">
+                        <a href="https://mail.google.com/mail/u/0/#inbox"> <img src="img/googleplus.png"></a>
+                        <label> <h6> Siguenos en Google Plus</h6></label>
+                    </div>
+                </div>
+
+                <div class="colum3">
+                    <div class="row2">
+                        <h3> Información Contactos</h3>
+                        <a href=" https://web.whatsapp.com/"> <img src="img/whatsapp.png"></a>
+
+
+                        <label><h6>cel:313 318 68 89 </h6> </label>
+
+                    </div>
+                    <div class="row2">
+                        <a href="https://mail.google.com/mail/u/0/#inbox"> <img src="img/googleplus.png"></a>
+
+
+                        <label><h6>  heidytorrez04@gmail.com</h6></label>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="container-footer">
+        <div class="copy-right">
+            @2020 todos los derechos reservados|<a href=""> Heidy Torres</a>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
