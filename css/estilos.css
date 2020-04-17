@@ -853,4 +853,12 @@ body {
         opacity: 1;
     }
 }
-  
+div#marcafinal{
+    max-height:100%;
+    max-width:100%;
+    background-color:white;
+    width:1200px;
+    height:2000px;
+    margin-left:200px;
+    padding:80px;
+}
